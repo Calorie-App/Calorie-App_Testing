@@ -1,4 +1,4 @@
-# **Calorie App**
+# **CalorieCalc**
 
 ## Table of Contents
 
@@ -9,11 +9,11 @@
 
 ## App Overview
 
-The Calorie App is intended to display a list of all of the food the user answered yes to consuming as well as the total amount of calories the user will be intaking. 
+The CalorieCalc is a powerful tool designed to help users easily track and manage their daily caloric intake. Whether you're looking to maintain a healthy lifestyle, lose weight, or gain muscle, CalorieCalc provides real-time feedback on your calorie consumption, helping you stay on track with your nutrition goals.
 
 ### Description 
 
-**The Calorie App will fetch data such as the food image, food name, and the amount of calories the food contains from a Food API. The App will ask the user if they would like to consume the food being displayed. If the user answers yes, the food will be added in a RecyclerView. At any time the user can click the end button which will be available towards the bottom of the page. Once the user clicks end, the application will display a RecycleView which contains all of the food the user answered yes to.**
+**The CalorieCalc will fetch data such as the food name, the amount of calories, and other nutrients details from a Food API. The App will ask the user if they would like to consume the food being displayed. If the user answers yes, the food will be added to a RecyclerView. The user will be able to add food to the RecyclerView until his/her calorie intake goal for the day is met. Once the calorie goal is met, the application will display a RecycleView which contains all of the food the user answered yes to consuming.**
 
 ### App Evaluation
 
@@ -85,41 +85,44 @@ The Calorie App is intended to display a list of all of the food the user answer
 ### 1. User Features (Required and Optional)
 
 Required Features:
+- API call to fetch data 
+- User will be able to enter the food they desire through an EditText View
+- Search Button to fetch food info requested by user
+- RecyclerView to display the list of what the user chose to consume
 
-- Search bar for users to enter food 
-- Image View to display image of food
-- text feild to display nutrition information about food
-- button to add to liked foods
-- RecyclerView to display liked foods in a list 
-- ...
 
 Stretch Features:
+- Another Activity or a Toast 
+- The user will be initially asked "What is your calorie intake goal for today?". The purpose of this feature is for the user to be able to add food to the list until the calorie amount reaches his/her calorie intake goal for the day.
+- There will be a section for the user to type the food he/she desires as well as a Search button to search for the desired food. 
 
-- **fill in here**
-- ...
+
 
 ### 2. Chosen API(s)
 
-- [**list first API endpoint here**](https://api-ninjas.com/api/nutrition)
-  - **list associated required feature here**
-  - ...
-- ...
+- [**https://api-ninjas.com/api/nutrition)**] (https://api-ninjas.com/api/nutrition)
+
+
 
 ### 3. User Interaction
 
 Required Feature
 
-- First User Interaction  will be to use the search bar to search for a food 
-  - Display a Picture of the food along with the nutrition details
-  - ...
-- Second Interaction will be to use the like button to add a certain food to the List of Liked Foods 
-  - The image and nutrition information of a liked food will be in the RecyclerView 
-  - ...
+- First User Interaction will be the main page in which there will be a brief description about CalorieCalc. There will be two questions in the first page. The first question is "What is your calorie intake goal for today?". The ojective is for the user to add as much food as he/she would like until his/her calorie intake goal is met for the day. The second question is "What food would you like to consume?". The user will have a section, so he/she can type his/her answer as to what food he/she would like to eat. There will be a search button towards the bottom, so the user can click it to search the food typed. 
+  
+
+- Second Interaction will display the food the user searched for. The data displayed will be fetched from a Nutrition API. CalorieCalc will make an API call to the Nutrition API to fetch data such as the food name, calorie, fat saturated, protein, carbohydrates, and fiber to display it to the user. The user will then be asked to if he/she would like to consume the food search.
+  
+  
+- Third Interaction depends on the user's answer to the question "Would you like to consume this food?". If the user clicks no, then the application will take the user back to the main page, so he/she can search for another food item. If the user clicks the yes button, the food searched will be added to the RecyclerView. The user will be be able add food to the list until his/her calorie intake goal for the day is reached. Then, the recyclerview will display the list of the food chosen by the user. 
+
+
 
 ## Wireframes
 
 <!-- Add picture of your hand sketched wireframes in this section -->
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+
 
 ### [BONUS] Digital Wireframes & Mockups
 
