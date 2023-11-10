@@ -120,29 +120,20 @@ Required Feature
 
 ## Wireframes
 
-<!-- Add picture of your hand sketched wireframes in this section -->
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
-<img src="Wireframe/CalorieCalc_main.png" width=600>
-<img src="Wireframe/CalorieCalc_question.png" width=600>
-<img src="Wireframe/CalorieCalc_RecyclerView.png" width=600>
-<img src="Wireframe/caloriecalc_flowchart.png" width=600>
+<img src="Wireframe/CalorieCalc_main.png" width=300>
+<img src="Wireframe/CalorieCalc_question.png" width=300>
+<img src="Wireframe/CalorieCalc_RecyclerView.png" width=300>
+<img src="Wireframe/caloriecalc_flowchart.png" width=1200>
 
 
-[//]: # ()
-[//]: # (![Alt text]&#40;Wireframe/CalorieCalc_main.png "Main Page"&#41;)
 
-[//]: # (![Alt text]&#40;Wireframe/CalorieCalc_question.png "Food Data Fetch from API"&#41;)
-
-[//]: # (![Alt text]&#40;Wireframe/CalorieCalc_RecyclerView.png "RecyclerView Displays Food List"&#41;)
-
-[//]: # (![Alt text]&#40;Wireframe/caloriecalc_flowchart.png "CalorieCalc Flow-Chart"&#41;)
 
 
 ### [BONUS] Digital Wireframes & Mockups
 
-[//]: # (![Alt text]&#40;Wireframe/digital_wireframe.png&#41;)
-<img src="Wireframe/digital_wireframe.png" width=600>
+<img src="Wireframe/digital_wireframe.png" width=800>
 
 
 ### [BONUS] Interactive Prototype
