@@ -145,6 +145,8 @@ process, or what you learned this unit!
 
 For Milestone 2, include **2+ Videos/GIFs** of the build process here!
 
+<img src='Videos/UI_Building_Process.mp4' title='Main Page UI Building Process' width='450' alt='Main Page UI Building Process' />
+
 ## License
 
 Copyright **2023** **Francisco, Afaq, Valery, and teghpreet**
