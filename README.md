@@ -36,10 +36,18 @@ The following REQUIRED files are included:
   - [X] App Spec: User features, Chosen API(s), User Interactions
   - [ ] Wireframe image(s)
 
-The following BONUS features are implemented:
 
 - [ ] Added digital wireframe/mockup image(s)
 - [ ] Added a Video/GIF of an interactive prototype
+- [ ] ![image](https://github.com/user-attachments/assets/37c80c34-cd3a-40c2-86c9-2822f63a6712)
+- [ ] ![image](https://github.com/user-attachments/assets/347bb3fb-119d-4c47-8c63-45626c36f4cd)
+- [ ] ![image](https://github.com/user-attachments/assets/60b861fa-1e3c-4089-9c3c-dfbcfbed51ff)
+- [ ]
+- [ ] ![image](https://github.com/user-attachments/assets/65d2dc51-c103-4084-b526-383c48796c48)
+
+
+
+
 
 The following EXTRA features are implemented:
 
